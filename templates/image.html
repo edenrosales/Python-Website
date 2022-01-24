@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<h1>Image Page</h1>
+{% endblock %}
+
+
+{% block body%}
+<image src="{{ url_for('static', filename='fishoutofwater.png')}}"/>
+{% endblock %}
